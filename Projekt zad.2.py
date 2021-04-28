@@ -1,10 +1,4 @@
-lista1 = [1,2,3,4]
-lista2 = [2,4,6,8]
-def mnozenie_list(lista1, lista2):
-    lista3 = []
-    for i in range(len(lista1)):
-        lista3.append(lista1[i]*lista2[i])
-    return lista3
+
 
 print(mnozenie_list(lista1, lista2))
 
